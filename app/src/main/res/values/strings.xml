@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Oreo Samples</string>
+    <string name="notification_channels">Notification channels</string>
+    <string name="notification_channels_subtitle">Categorize notifications by topic and allows users to have fine-grained control over their notification preferences.</string>
+    <string name="notification_badges">Notification badges</string>
+    <string name="todo">To do...</string>
+    <string name="pinned_shortcuts">Pinned shortcuts</string>
+    <string name="downloadable_fonts">Downloadable fonts</string>
+    <string name="autosizing_text_view">Autosizing TextViews</string>
+    <string name="picture_in_picture">Picture-in-picture</string>
+    <string name="autofill_framework">Autofill framework</string>
+    <string name="java_8_support">Java 8 support</string>
+</resources>
