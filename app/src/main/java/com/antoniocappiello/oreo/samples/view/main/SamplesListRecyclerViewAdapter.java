@@ -1,9 +1,12 @@
-package com.antoniocappiello.oreo.samples;
+package com.antoniocappiello.oreo.samples.view.main;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.antoniocappiello.oreo.samples.R;
+import com.antoniocappiello.oreo.samples.model.Sample;
 
 import java.util.List;
 

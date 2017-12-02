@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin2x"
+        android:layout_marginEnd="@dimen/margin4x"
+        android:layout_marginStart="@dimen/margin4x"
+        android:layout_marginTop="@dimen/margin2x"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cell_height"
+            android:gravity="center_vertical"
+            android:text="@string/choose_channel" />
+
+        <RadioGroup
+            android:id="@+id/channels_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/channel_1_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/channel_one_name" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/channel_2_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/channel_two_name" />
+        </RadioGroup>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/notification_message_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin2x"
+            android:layout_marginTop="@dimen/margin2x"
+            android:hint="@string/notification_text" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin2x"
+            android:text="@string/show_notification" />
+
+    </LinearLayout>
+
+</ScrollView>

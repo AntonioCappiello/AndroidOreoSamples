@@ -10,4 +10,19 @@
     <string name="picture_in_picture">Picture-in-picture</string>
     <string name="autofill_framework">Autofill framework</string>
     <string name="java_8_support">Java 8 support</string>
+    <string name="channel_one_id">1</string>
+    <string name="channel_one_name">Channel One</string>
+    <string name="channel_two_id">2</string>
+    <string name="channel_two_name">Channel Two</string>
+    <string name="channel_three_id">3</string>
+    <string name="channel_three_name">Channel Three</string>
+    <string name="show_notification">Send notification to channel</string>
+    <string name="choose_channel">Choose a notification channel:</string>
+    <string name="notification_text">Enter notification text</string>
+    <string name="lights">Enable lights</string>
+    <string name="custom_sound">Play custom sound</string>
+    <string name="enable_vibration">Enable vibration</string>
+    <string name="change_notification_channel_settings">Change notification channel settings:</string>
+    <string name="example_notification_in_channel">Example notification in ch. %s</string>
+    <string name="default_notification_text">No text entered</string>
 </resources>
