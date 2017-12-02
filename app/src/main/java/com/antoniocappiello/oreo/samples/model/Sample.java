@@ -1,14 +1,16 @@
-package com.antoniocappiello.oreo.samples;
+package com.antoniocappiello.oreo.samples.model;
 
 /**
  * Created by antonio on 30/11/2017.
  */
 
-class Sample {
+public class Sample {
     String title;
     String subtitle;
+    private SampleType type;
 
-    public Sample(String title, String subtitle) {
+    public Sample(SampleType type, String title, String subtitle) {
+        this.type = type;
         this.title = title;
         this.subtitle = subtitle;
     }
@@ -27,5 +29,9 @@ class Sample {
 
     public void setSubtitle(String subtitle) {
         this.subtitle = subtitle;
+    }
+
+    public SampleType getType() {
+        return type;
     }
 }
